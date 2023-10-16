@@ -1,8 +1,9 @@
+import { PokemonList } from '../components';
+
 export const HomePage = () => {
   return (
     <>
-      <h1>Home Page</h1>
-      <hr />
+      <PokemonList />
     </>
   );
 };
